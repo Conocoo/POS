@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <TextView
+        android:id="@+id/lv_MenuName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:imeOptions="actionDone"
+        android:singleLine="true"
+        android:textSize="50dp" />
+
+    <TextView
+        android:id="@+id/lv_MenuPrice"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="right"
+        android:imeOptions="actionDone"
+        android:numeric="integer"
+        android:singleLine="true"
+        android:textSize="50dp" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:id="@+id/btn_set"
+        android:layout_height="match_parent"
+        android:onClick="btn_change_menu"
+        android:text="수정"/>
+
+</LinearLayout>
